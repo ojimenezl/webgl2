@@ -40,9 +40,9 @@ function init() {
 
         const mesh = new THREE.Mesh(geometry, material);
 
-        mesh.position.x = 5000 * (2.0 * Math.random() - 1.0);
-        mesh.position.y = 5000 * (2.0 * Math.random() - 1.0);
-        mesh.position.z = 5000 * (2.0 * Math.random() - 1.0);
+        mesh.position.x = 500000 * (2.0 * Math.random() - 1.0);
+        mesh.position.y = 500000 * (2.0 * Math.random() - 1.0);
+        mesh.position.z = 500000 * (2.0 * Math.random() - 1.0);
 
         mesh.rotation.x = Math.random() * Math.PI;
         mesh.rotation.y = Math.random() * Math.PI;
