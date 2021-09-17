@@ -36,13 +36,13 @@ function init() {
     const geometry = new THREE.SphereGeometry(15, 32, 16);
     const material = new THREE.MeshPhongMaterial({ color: 0xffffff, specular: 0xffffff, shininess: 50 });
 
-    for (let i = 0; i < 100000; i++) {
+    for (let i = 0; i < 200000; i++) {
 
         const mesh = new THREE.Mesh(geometry, material);
 
-        mesh.position.x = 50000 * (2.0 * Math.random() - 1.0);
-        mesh.position.y = 50000 * (2.0 * Math.random() - 1.0);
-        mesh.position.z = 50000 * (2.0 * Math.random() - 1.0);
+        mesh.position.x = 100000 * (2.0 * Math.random() - 1.0);
+        mesh.position.y = 100000 * (2.0 * Math.random() - 1.0);
+        mesh.position.z = 100000 * (2.0 * Math.random() - 1.0);
 
         mesh.rotation.x = Math.random() * Math.PI;
         mesh.rotation.y = Math.random() * Math.PI;
