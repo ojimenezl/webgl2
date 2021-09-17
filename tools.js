@@ -36,7 +36,7 @@ function init() {
     const geometry = new THREE.SphereGeometry(15, 32, 16);
     const material = new THREE.MeshPhongMaterial({ color: 0xffffff, specular: 0xffffff, shininess: 50 });
 
-    for (let i = 0; i < 100; i++) {
+    for (let i = 0; i < 10000; i++) {
 
         const mesh = new THREE.Mesh(geometry, material);
 
@@ -60,7 +60,7 @@ function init() {
     const geometryplanet = new THREE.SphereGeometry(850, 32, 16);
     const materialplanet = new THREE.MeshPhongMaterial({ color: 0xffffff, specular: 0xffffff, shininess: 50 });
 
-    for (let j = 0; j < 10; j++) {
+    for (let j = 0; j < 100000; j++) {
 
         const mesh = new THREE.Mesh(geometryplanet, materialplanet);
 
