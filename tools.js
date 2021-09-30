@@ -41,8 +41,11 @@ function init() {
         const mesh = new THREE.Mesh(geometry, material);
 
         mesh.position.x = 100000 * (2.0 * Math.random() - 1.0);
+
         mesh.position.y = 100000 * (2.0 * Math.random() - 1.0);
+
         mesh.position.z = 100000 * (2.0 * Math.random() - 1.0);
+ 
 
         mesh.rotation.x = Math.random() * Math.PI;
         mesh.rotation.y = Math.random() * Math.PI;
@@ -65,8 +68,11 @@ function init() {
         const mesh = new THREE.Mesh(geometryplanet, materialplanet);
 
         mesh.position.x = 500000 * (2.0 * Math.random() - 1.0);
+        console.log("x: ",mesh.position.x)
         mesh.position.y = 500000 * (2.0 * Math.random() - 1.0);
+        console.log("y: ",mesh.position.y)
         mesh.position.z = 500000 * (2.0 * Math.random() - 1.0);
+        console.log("z: ",mesh.position.z)
 
         mesh.rotation.x = Math.random() * Math.PI;
         mesh.rotation.y = Math.random() * Math.PI;
